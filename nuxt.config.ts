@@ -21,6 +21,12 @@ export default defineNuxtConfig({
 			htmlAttrs: {
 				class: 'n-reset',
 			},
+			link: [
+				{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+			]
 		},
 	},
+	nitro: {
+		preset: 'github_pages'
+	}
 })
