@@ -23,7 +23,7 @@
 
 <style lang="scss" scoped>
     .outer-section {
-        padding-top: 200px;
+        padding-top: 20%;
 
         .success-page {
             font-size: 20px;
