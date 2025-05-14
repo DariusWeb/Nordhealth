@@ -29,5 +29,9 @@
             font-size: 20px;
             color: var(--light-color);
         }
+
+        @media (min-width: 769px) {
+            padding-top: 200px;
+        }
     }
 </style>

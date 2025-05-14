@@ -18,5 +18,9 @@ export default defineComponent({
 <style lang="scss" scoped>
 	.page-login {
 		padding-top: 15%;
+
+		@media (min-width: 769px) {
+			padding-top: 200px;
+		}
 	}
 </style>
