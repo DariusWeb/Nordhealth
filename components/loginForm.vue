@@ -2,7 +2,7 @@
 	<section class="login-form">
 		<provet-avatar class="n-margin-be-l" name="Avatar" size="xxxl"></provet-avatar>
 		
-		<form @submit.prevent="handleSubmit">
+		<form @submit.prevent="handleSubmit" autocomplete="off">
 			<!-- Email Input -->
 			<div class="form-group" aria-labelledby="email-input">
 				<provet-input
@@ -13,6 +13,8 @@
 					expand
 					required
 					hideRequired
+					autocomplete="off"
+					data-1p-ignore
 				>
 					<provet-icon slot="start" name="generic-mail" color="var(--light-color)"></provet-icon>
 				</provet-input>
@@ -30,6 +32,8 @@
 					expand
 					required
 					hideRequired
+					autocomplete="new-password"
+					data-1p-ignore
 				>
 					<provet-icon slot="start" name="interface-lock" color="var(--light-color)"></provet-icon>
 				</provet-input>

@@ -14,13 +14,14 @@ import { defineComponent } from 'vue'
 import LoginForm from '../../components/loginForm.vue'
 
 const ProvetInputStub = defineComponent({
-  props: ['modelValue', 'type', 'placeholder'],
+  props: ['modelValue', 'type', 'placeholder', 'autocomplete'],
   emits: ['update:modelValue'],
   template: `
     <input
       :type="type"
       :placeholder="placeholder"
       :value="modelValue"
+      :autocomplete="autocomplete || 'off'"
       @input="$emit('update:modelValue', $event.target.value)"
     />
   `
