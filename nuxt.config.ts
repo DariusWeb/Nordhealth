@@ -18,7 +18,7 @@ export default defineNuxtConfig({
 		baseURL: '/Nordhealth/',
 		buildAssetsDir: 'assets',
 		head: {
-			title: 'NordHealth SignUp',
+			title: 'Nordhealth',
 			htmlAttrs: {
 				class: 'n-reset',
 			},
