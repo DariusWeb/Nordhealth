@@ -169,7 +169,10 @@
 				.show-password {
 					position: absolute;
 					right: 15px;
-					top: 35px;
+					top: 30px;
+					width: 30px;
+					height: 30px;
+					padding: 6px;
 					color: var(--light-color);
 					cursor: pointer;
 				}
